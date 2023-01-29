@@ -31,8 +31,8 @@ export default function TestMocking() {
     if (error) return <p>{error}</p>
 
     return (
-        <div>   
-            <button onClick={handleClick} data-testid='request-button'>데이터 가져오기</button>
+        <div style={{display: 'flex', justifyContent: 'center', height: '100vh', paddingTop: '30px'}}>   
+            <button onClick={handleClick} data-testid='request-button' style={{padding: '10px 20px', fontSize: '24px'}}>데이터 가져오기</button>
 
             {
                 data && (
