@@ -1,6 +1,6 @@
 import './App.css';
 import TestMocking from './components/TestMocking/TestMocking';
-import { Counter } from './features/counter/Counter'
+// import { Counter } from './features/counter/Counter'
 
 function App() {
   return (
