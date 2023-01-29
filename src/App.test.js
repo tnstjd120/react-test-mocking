@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('the counter starts at 0', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  
+  const buttonElement = screen.getByTestId('request-button')
+  expect(buttonElement).toHaveTextContent('데이터 가져오기')
 });

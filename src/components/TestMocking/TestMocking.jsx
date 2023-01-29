@@ -32,7 +32,7 @@ export default function TestMocking() {
 
     return (
         <div>   
-            <button onClick={handleClick}>데이터 가져오기</button>
+            <button onClick={handleClick} data-testid='request-button'>데이터 가져오기</button>
 
             {
                 data && (
